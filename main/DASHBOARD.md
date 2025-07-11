@@ -1,7 +1,7 @@
 # 🚀 Blu's Lab Project Dashboard
 
 > Central hub for all deeptech DIY experiments, robotics builds, AI agents, and hardware hacking adventures.
-> 🌙 Updated: 2025-07-11    ![Status](https://img.shields.io/badge/status-active-blue) ![Projects](https://img.shields.io/badge/projects-15+-brightgreen) ![Focus](https://img.shields.io/badge/focus-deeptech-critical)
+> 🌙 Updated: 2025-07-11    ![Status](https://img.shields.io/badge/status-active-blue) ![Projects](https://img.shields.io/badge/projects-15+-brightgreen) ![Focus](https://img.shields.io/badge/focus-deeptech-critical) [![View on GitHub](https://img.shields.io/badge/Lab%20Dashboard-Open-blue?logo=github)](https://github.com/Bluefox192/lab-dashboard/blob/main/DASHBOARD.md)
 
 ---
 
