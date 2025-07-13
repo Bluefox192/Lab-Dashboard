@@ -77,4 +77,24 @@ All projects follow a standardized structure:
 └── safety.md          ← risk & handling protocol
 ```
 
+---
+
+---
+
+## 📺 Dashboard Components
+
+### 🔍 3D Model Viewer
+
+Dashboard ini mendukung penampilan model 3D langsung di browser menggunakan [`<model-viewer>`](https://modelviewer.dev/).  
+Ini berguna untuk melihat hasil desain CAD seperti mesin CVD, part robot, atau komponen roket.
+
+#### Contoh penggunaan:
+
+```html
+<model-viewer src="assets/model.glb"
+              alt="3D model of raspbery pi"
+              auto-rotate camera-controls
+              style="width:100%; height:400px;">
+</model-viewer>
+
 > *“Learning by building, hacking by heart.” — Blu*
