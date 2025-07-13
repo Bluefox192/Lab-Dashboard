@@ -1,0 +1,38 @@
+
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  html-check:
+    runs-on: ubuntu-latest
+    name: HTML/JS Lint
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install HTMLHint
+        run: npm install -g htmlhint
+
+      - name: Run HTMLHint
+        run: htmlhint .
+
+      - name: Install ESLint
+        run: npm install -g eslint
+
+      - name: Run ESLint (optional - skip if no config)
+        run: |
+          if [ -f .eslintrc.js ] || [ -f .eslintrc.json ]; then
+            eslint .
+          else
+            echo "No ESLint config, skipping..."
+          fi
