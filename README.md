@@ -57,6 +57,7 @@ lab-dashboard/
 ├── css/            # Tema dan styling utama
 ├── js/             # Script interaktif
 ├── index.html      # Entry point
+└── main/
 └── README.md
 ```
 
